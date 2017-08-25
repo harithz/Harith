@@ -64,7 +64,10 @@ module.exports.connections = {
     // password: 'password', //optional
     database: 'phonebook' //optional
   },
-
+  Productionphonebook: {
+    adapter: 'sails-mongo',
+    url:'mongodb://<dbuser>:<dbpassword>@ds159033.mlab.com:59033/sailsjs'
+  },
   /***************************************************************************
   *                                                                          *
   * PostgreSQL is another officially supported relational database.          *

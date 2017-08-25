@@ -66,7 +66,7 @@ module.exports.connections = {
   },
   Productionphonebook: {
     adapter: 'sails-mongo',
-    url:'mongodb://<dbuser>:<dbpassword>@ds159033.mlab.com:59033/sailsjs'
+    url:'mongodb://Harith:101Dragon101@ds159033.mlab.com:59033/sailsjs'
   },
   /***************************************************************************
   *                                                                          *
